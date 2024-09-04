@@ -1,5 +1,5 @@
 if os.getenv("OS") == "Windows_NT" then
-	os.execute("chcp 65001 > nul")
+   os.execute("chcp 65001 > nul")
 end
 
 -- 1 - Faça um algoritmo que leia os valores de A, B, C e em seguida imprima na tela a soma entre A e B é mostre se a soma é menor que C.
@@ -15,9 +15,8 @@ local AB = A + B
 
 if AB < C then
      print("A soma de A + B é menor que C")
-else if AB > C then
+elseif AB > C then
      print("A soma de A + B é maior que C")
 else 
 	  print("A soma de A + B é igual a C")
-end
 end

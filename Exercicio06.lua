@@ -1,3 +1,7 @@
+if os.getenv("OS") == "Windows_NT" then
+	os.execute("chcp 65001 > nul")
+end
+
 -- 6 - Faça um algoritmo que leia um valor qualquer e imprima na tela com um reajuste de 5%.
 
 print("Digite um valor: ")

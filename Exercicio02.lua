@@ -8,16 +8,12 @@ local numero = tonumber(io.read())
 
 if numero % 2 ~= 0 and numero < 0 then
      print("O número é impar e negativo.")
-else if numero % 2 ~= 0 and numero > 0 then
+elseif numero % 2 ~= 0 and numero > 0 then
      print("O número é impar e positivo")
-else if numero % 2 == 0 and numero < 0 then
+elseif numero % 2 == 0 and numero < 0 then
      print("O número é par e negativo")
-else if numero % 2 == 0 and numero > 0 then
+elseif numero % 2 == 0 and numero > 0 then
      print("O número é par e positivo")
-else if numero == 0 then
+elseif numero == 0 then
      print("O número é zero")
-end
-end
-end
-end
 end
